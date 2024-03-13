@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import './slider.css';
 
 const Sidebar = () => {
   const location = useLocation();
@@ -18,67 +19,61 @@ const Sidebar = () => {
   return (
     <>
       <div className=" col-md-2 py-5">
-      <ul className="nav text-start">
-          <li className="nav-item">
+        <ul className="nav text-start">
+          <li className="nav-item nav-it">
             <Link
-              className={`nav-link  text-decoration-none fw-semibold  text-secondary fs-6 mb-3 w-100 ${
-                location.pathname === "/" ? "active" : ""
-              }`}
+              className={`nav-link  text-decoration-none fw-semibold  text-secondary fs-6 mb-3 w-100 ${location.pathname === "/" ? "active" : ""
+                }`}
               to="/"
             >
               <img src="assets/images/dashboard.png" className="mx-3" />
               Dashboard
             </Link>
           </li>
-          <li className="nav-item ">
+          <li className="nav-item nav-it">
             <Link
-              className={`nav-link  text-decoration-none fw-semibold  text-secondary fs-6 mb-3 ${
-                location.pathname === "/orders" ? "active" : ""
-              }`}
+              className={`nav-link  text-decoration-none fw-semibold  text-secondary fs-6 mb-3 ${location.pathname === "/orders" ? "active" : ""
+                }`}
               to="/orders"
             >
               <img src="assets/images/order.png" className="mx-3" />
               Orders
             </Link>
           </li>
-          <li className="nav-item">
+          <li className="nav-item nav-it">
             <Link
-              className={`nav-link  text-decoration-none fw-semibold  text-secondary fs-6 mb-3 ${
-                location.pathname === "/category" ? "active" : ""
-              }`}
+              className={`nav-link  text-decoration-none fw-semibold  text-secondary fs-6 mb-3 ${location.pathname === "/category" ? "active" : ""
+                }`}
               to="/category"
             >
               <img src="assets/images/brand.png" className="mx-3" />
               Category
             </Link>
           </li>
-          <li className="nav-item">
+          <li className="nav-item nav-it">
             <Link
-              className={`nav-link  text-decoration-none fw-semibold  text-secondary fs-6 mb-3 ${
-                location.pathname === "/brand" ? "active" : ""
-              }`}
+              className={`nav-link  text-decoration-none fw-semibold  text-secondary fs-6 mb-3 ${location.pathname === "/brand" ? "active" : ""
+                }`}
               to="/brand"
             >
               <img src="assets/images/brand.png" className="mx-3" />
               Banner
             </Link>
           </li>
-          <li className="nav-item">
+          <li className="nav-item nav-it">
             <Link
-              className={`nav-link  text-decoration-none fw-semibold  text-secondary fs-6 mb-3 ${
-                location.pathname === "/products" ? "active" : ""
-              }`}
+              className={`nav-link  text-decoration-none fw-semibold  text-secondary fs-6 mb-3 ${location.pathname === "/products" ? "active" : ""
+                }`}
               to="/products"
             >
               <img src="assets/images/product.png" className="mx-3" />
               Invitatory
             </Link>
           </li>
-          <li className="nav-item">
+          <li className="nav-item nav-it">
             <Link
-              className={`nav-link  text-decoration-none fw-semibold  text-secondary fs-6 mb-3 ${
-                location.pathname === "/customer" ? "active" : ""
-              }`}
+              className={`nav-link  text-decoration-none fw-semibold  text-secondary fs-6 mb-3 ${location.pathname === "/customer" ? "active" : ""
+                }`}
               to="/customer"
             >
               <img src="assets/images/customer.png" className="mx-3" />
@@ -96,13 +91,12 @@ const Sidebar = () => {
               Our Staff
             </Link>
           </li> */}
-         
 
-          <li className="nav-item">
+
+          <li className="nav-item nav-it">
             <Link
-              className={`nav-link  text-decoration-none fw-semibold  text-secondary fs-6 mb-3 ${
-                location.pathname === "" ? "active" : ""
-              }`}
+              className={`nav-link  text-decoration-none fw-semibold  text-secondary fs-6 mb-3 ${location.pathname === "" ? "active" : ""
+                }`}
               to="/blog"
             >
               <img src="assets/images/inter.png" className="mx-3" />
@@ -155,18 +149,17 @@ const Sidebar = () => {
               </div>
             </div> */}
           </li>
-          <li className="nav-item">
+          <li className="nav-item nav-it">
             <Link
-              className={`nav-link  text-decoration-none fw-semibold  text-secondary fs-6 mb-3 ${
-                location.pathname === "/settings" ? "active" : ""
-              }`}
+              className={`nav-link  text-decoration-none fw-semibold  text-secondary fs-6 mb-3 ${location.pathname === "/settings" ? "active" : ""
+                }`}
               to="/settings"
             >
               <img src="assets/images/setting.png" className="mx-3" />
               Setting
             </Link>
           </li>
-         
+
           <li className="nav-item text-center ps-3">
             <a
               className={`nav-link btn btn-sm my-3 text-light bg-main rounded-pill text-decoration-none fw-semibold btn-sm  fs-6 mb-3`}

@@ -62,7 +62,7 @@ const Header = () => {
         {/* Hello world */}
         <header className="p-3 background-color">
           <div className="container-fluid ">
-            <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <div className="d-flex justify-content-between w-100 align-items-center">
               <a
                 href="/"
                 className="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none"
@@ -73,20 +73,20 @@ const Header = () => {
                   height={"50px"}
                 />
               </a>
-              <ul className="nav col-12 col-lg-auto mx-lg-auto mb-2 justify-content-end mb-md-0">
+              {/* <ul className="nav col-12 col-lg-auto mx-lg-auto mb-2 justify-content-end mb-md-0"> */}
                 {/*<li><a href="#" class="nav-link px-2 link-secondary">Overview</a></li>
-  <li><a href="#" class="nav-link px-2 link-body-emphasis">Inventory</a></li>
-  <li><a href="#" class="nav-link px-2 link-body-emphasis">Customers</a></li>
-  <li><a href="#" class="nav-link px-2 link-body-emphasis">Products</a></li> */}
-              </ul>
+                      <li><a href="#" class="nav-link px-2 link-body-emphasis">Inventory</a></li>
+                      <li><a href="#" class="nav-link px-2 link-body-emphasis">Customers</a></li>
+                      <li><a href="#" class="nav-link px-2 link-body-emphasis">Products</a></li> */}
+              {/* </ul> */}
               {/* <form className="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-          <input
-            type="search"
-            className="form-control"
-            placeholder="Search..."
-            aria-label="Search"
-          />
-        </form> */}
+                    <input
+                      type="search"
+                      className="form-control"
+                      placeholder="Search..."
+                      aria-label="Search"
+                    />
+                  </form> */}
               <div className="dropdown text-end">
                 <a
                   href="#"

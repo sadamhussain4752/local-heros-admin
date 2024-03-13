@@ -53,7 +53,7 @@ const ExportCSV = ({ csvData, fileName, wscols, headers, headerTitle,title }) =>
     // >
     //   Export XLSX
     // </Button>
-    <div className="text-center mt-2 mb-2 text-md-end pe-5">
+    <div className="text-center mt-2 mb-2 text-md-end pe-lg-5">
       <button
         className="action_button"
         onClick={(e) => exportToCSV(csvData, fileName, wscols)}

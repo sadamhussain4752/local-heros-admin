@@ -1,0 +1,18 @@
+    /* .nav-it {
+        width: 50%;
+    } */
+
+    .overview{
+        height:100%;
+    }
+
+    .csh-crd{
+        height: 50px;
+    }
+
+
+    @media only screen and (max-width:760px) {
+        .nav-it {
+            width: 50%;
+        }
+    }

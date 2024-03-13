@@ -62,8 +62,8 @@ const Orders = () => {
   useEffect(() => {
     const fetchData = async () => {
       await dispatch(OrderUserList());
-     
-    
+
+
       // if (
       //   Orderlength > getOrderResponse?.orders?.length &&
       //   getOrderResponse?.orders !== undefined
@@ -326,8 +326,8 @@ const Orders = () => {
 
   const filteredOrders = getOrderResponse?.orders
     ? getOrderResponse.orders.filter((order) =>
-        order.user.firstname.toLowerCase().includes(searchText.toLowerCase())
-      )
+      order.user.firstname.toLowerCase().includes(searchText.toLowerCase())
+    )
     : [];
 
   const wscols = [

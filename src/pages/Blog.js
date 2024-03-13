@@ -444,7 +444,7 @@ const Blog = () => {
         <div className="row">
           <Sidebar />
           <div className="col-md-10 bg-light">
-            <div className="main px-5 my-5">
+            <div className="main px-lg-5 my-5">
               <div className="row g-0">
                 <div className="col-md-12">
                   <p className="fs-3 fw-semibold my-3">Blog</p>

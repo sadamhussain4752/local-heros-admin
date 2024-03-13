@@ -327,7 +327,7 @@ const Category = () => {
         <div className="row">
           <Sidebar />
           <div className="col-md-10 bg-light">
-            <div className="main m-4">
+            <div className="main m-lg-4 mx-2">
               <div className="row p-3">
                 <div className="col-md-6 my-2 col-12">
                   <p className="fs-3 fw-semibold text-start col-md-6 col-12">
@@ -348,9 +348,9 @@ const Category = () => {
                         onChange={(e) => setSearchInput(e.target.value)}
                       />
                     </div>
-                    <div className="mt-2 col-md-6 d-flex justify-content-end">
+                    <div className="mt-2 col-md-6 d-lg-flex justify-content-end">
                       <div
-                        className={`add-button padding-top mx-3 h-75`}
+                        className={`add-button padding-top mx-lg-3 h-75 pb-3`}
                         style={{ cursor: "pointer" }}
                         onClick={() =>
                           handleEdit({
@@ -361,7 +361,7 @@ const Category = () => {
                           })
                         }
                       >
-                        <i className="fa-solid fa-plus px-1" />
+                        <i className="fa-solid fa-plus px-1 pb-2" />
                         Add Category
                       </div>
                     </div>

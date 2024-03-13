@@ -147,7 +147,7 @@ const Home = () => {
         <div className="row ">
           <Sidebar />
           <div className="col-md-10  bg-light dashboard">
-            <div className="main px-5 my-5">
+            <div className="main px-lg-5 px-2 my-5">
               <div className="row">
                 <div className="col-md-8">
                   <p className="fs-3 fw-semibold text-start col-md-6 col-12">
@@ -159,8 +159,8 @@ const Home = () => {
                 
                 </div>
               </div>
-              <div className="row">
-                <div className="col-md-12 row">
+              {/* <div className="row"> */}
+                <div className="row">
                   <div className="col-md-3">
                     <div className="overview mt-3 px-3 py-3 bg-white ">
                       <div className="row d-flex">
@@ -180,7 +180,7 @@ const Home = () => {
                           <p className="fw-semibold fs-6 mb-0 text-secondary">
                                 Today Order
                               </p>
-                              <p className="fw-normal fs-6 mb-0 text-secondary-emphasis">
+                              <p className="fw-normal fs-6 mb-0 text-secondary-emphasis ">
                                 Rs.{" "}
                                 {
                                   Dashboardlistres?.orders?.today_order
@@ -196,7 +196,7 @@ const Home = () => {
                             <p className="fw-semibold small my-1 text-secondary">
                               Cash :
                             </p>
-                            <p className="fw-normal fs-6 mb-0 text-secondary-emphasis">
+                            <p className="fw-normal fs-6 mb-0 text-secondary-emphasis ">
                               Rs.{" "}
                               {
                                 Dashboardlistres?.orders?.today_order
@@ -208,7 +208,7 @@ const Home = () => {
                             <p className="fw-semibold small my-1 text-secondary">
                               Card
                             </p>
-                            <p className="fw-normal fs-6 mb-0 text-secondary-emphasis">
+                            <p className="fw-normal fs-6 mb-0 text-secondary-emphasis ">
                               Rs.{" "}
                               {
                                 Dashboardlistres?.orders?.today_order
@@ -241,7 +241,7 @@ const Home = () => {
                               <p className="fw-semibold fs-6 mb-0 text-secondary">
                                 Yesterday Order
                               </p>
-                              <p className="fw-normal fs-6 mb-0 text-secondary-emphasis">
+                              <p className="fw-normal fs-6 mb-0 text-secondary-emphasis ">
                                 Rs.{" "}
                                 {
                                   Dashboardlistres?.orders?.yesterday_order
@@ -408,7 +408,10 @@ const Home = () => {
                   </div>
                   {/*4th item complete*/}
                 </div>
-              </div>
+              {/* </div> */}
+
+
+              
               {/*start 2 item*/}
               <div className="row my-4">
                 <div className="col-md-12">
