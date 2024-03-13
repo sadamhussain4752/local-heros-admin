@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import './slider.css';
+// import './slider.css';
 
 const Sidebar = () => {
   const location = useLocation();
