@@ -180,7 +180,7 @@ const Home = () => {
                           <p className="fw-semibold fs-6 mb-0 text-secondary">
                                 Today Order
                               </p>
-                              <p className="fw-normal fs-6 mb-0 text-secondary-emphasis ">
+                              <p className="fw-normal fs-6 mb-0 text-secondary-emphasis text-start">
                                 Rs.{" "}
                                 {
                                   Dashboardlistres?.orders?.today_order
@@ -196,7 +196,7 @@ const Home = () => {
                             <p className="fw-semibold small my-1 text-secondary">
                               Cash :
                             </p>
-                            <p className="fw-normal fs-6 mb-0 text-secondary-emphasis ">
+                            <p className="fw-normal fs-6 mb-0 text-secondary-emphasis text-start">
                               Rs.{" "}
                               {
                                 Dashboardlistres?.orders?.today_order
@@ -208,7 +208,7 @@ const Home = () => {
                             <p className="fw-semibold small my-1 text-secondary">
                               Card
                             </p>
-                            <p className="fw-normal fs-6 mb-0 text-secondary-emphasis ">
+                            <p className="fw-normal fs-6 mb-0 text-secondary-emphasis text-start">
                               Rs.{" "}
                               {
                                 Dashboardlistres?.orders?.today_order
@@ -241,7 +241,7 @@ const Home = () => {
                               <p className="fw-semibold fs-6 mb-0 text-secondary">
                                 Yesterday Order
                               </p>
-                              <p className="fw-normal fs-6 mb-0 text-secondary-emphasis ">
+                              <p className="fw-normal fs-6 mb-0 text-secondary-emphasis text-start">
                                 Rs.{" "}
                                 {
                                   Dashboardlistres?.orders?.yesterday_order
@@ -258,7 +258,7 @@ const Home = () => {
                             <p className="fw-semibold small my-1 text-secondary">
                               Cash :
                             </p>
-                            <p className="fw-normal fs-6 mb-0 text-secondary-emphasis">
+                            <p className="fw-normal fs-6 mb-0 text-secondary-emphasis text-start">
                               Rs.{" "}
                               {
                                 Dashboardlistres?.orders?.yesterday_order
@@ -270,7 +270,7 @@ const Home = () => {
                             <p className="fw-semibold small my-1 text-secondary">
                               Card
                             </p>
-                            <p className="fw-normal fs-6 mb-0 text-secondary-emphasis">
+                            <p className="fw-normal fs-6 mb-0 text-secondary-emphasis text-start">
                               Rs.{" "}
                               {
                                 Dashboardlistres?.orders?.yesterday_order
@@ -303,7 +303,7 @@ const Home = () => {
                               <p className="fw-semibold fs-6 mb-0 text-secondary">
                                 Month Order
                               </p>
-                              <p className="fw-normal fs-6 mb-0 text-secondary-emphasis">
+                              <p className="fw-normal fs-6 mb-0 text-secondary-emphasis text-start">
                                 Rs.{" "}
                                 {
                                   Dashboardlistres?.orders?.months_order
@@ -320,7 +320,7 @@ const Home = () => {
                             <p className="fw-semibold small my-1 text-secondary">
                               Cash :
                             </p>
-                            <p className="fw-normal fs-6 mb-0 text-secondary-emphasis">
+                            <p className="fw-normal fs-6 mb-0 text-secondary-emphasis text-start">
                               Rs.{" "}
                               {
                                 Dashboardlistres?.orders?.months_order
@@ -332,7 +332,7 @@ const Home = () => {
                             <p className="fw-semibold small my-1 text-secondary">
                               Card
                             </p>
-                            <p className="fw-normal fs-6 mb-0 text-secondary-emphasis">
+                            <p className="fw-normal fs-6 mb-0 text-secondary-emphasis text-start">
                               Rs.{" "}
                               {
                                 Dashboardlistres?.orders?.months_order
@@ -365,7 +365,7 @@ const Home = () => {
                               <p className="fw-semibold fs-6 mb-0 text-secondary">
                                 All Time Sales
                               </p>
-                              <p className="fw-normal fs-6 mb-0 text-secondary-emphasis">
+                              <p className="fw-normal fs-6 mb-0 text-secondary-emphasis text-start">
                                 Rs.{" "}
                                 {
                                   Dashboardlistres?.orders?.total_order

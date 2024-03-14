@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-// import './slider.css';
+import './slider.css';
+
 
 const Sidebar = () => {
   const location = useLocation();
@@ -18,7 +19,7 @@ const Sidebar = () => {
 
   return (
     <>
-      <div className=" col-md-2 py-5">
+      <div className=" col-md-2 py-5 d-lg-block d-none">
         <ul className="nav text-start">
           <li className="nav-item nav-it">
             <Link
@@ -170,6 +171,113 @@ const Sidebar = () => {
           </li>
         </ul>
       </div>
+
+      <div className="d-block d-lg-none px-0">
+        <section className="top-nav px-4" >
+          <div>
+            Admin pannel
+          </div>
+          <input id="menu-toggle" type="checkbox" />
+          <label className='menu-button-container' for="menu-toggle">
+            <div className='menu-button'></div>
+          </label>
+          <ul className="menu">
+            <li>
+              <Link
+                className={`nav-link  text-decoration-none fw-semibold  text-secondary fs-6 d-block my-auto w-100 ${location.pathname === "/" ? "active" : ""
+                  }`}
+                to="/"
+              >
+                <img src="assets/images/dashboard.png" className="mx-3" />
+                Dashboard
+              </Link>
+            </li>
+            <li>
+              <Link
+                className={`nav-link  text-decoration-none fw-semibold  text-secondary fs-6 d-block my-auto ${location.pathname === "/orders" ? "active" : ""
+                  }`}
+                to="/orders"
+              >
+                <img src="assets/images/order.png" className="mx-3" />
+                Orders
+              </Link>
+            </li>
+            <li>
+              <Link
+                className={`nav-link  text-decoration-none fw-semibold  text-secondary fs-6 d-block my-auto ${location.pathname === "/category" ? "active" : ""
+                  }`}
+                to="/category"
+              >
+                <img src="assets/images/brand.png" className="mx-3" />
+                Category
+              </Link>
+            </li>
+            <li>
+              <Link
+                className={`nav-link  text-decoration-none fw-semibold  text-secondary fs-6 d-block my-auto ${location.pathname === "/brand" ? "active" : ""
+                  }`}
+                to="/brand"
+              >
+                <img src="assets/images/brand.png" className="mx-3" />
+                Banner
+              </Link>
+            </li>
+            <li>
+              <Link
+                className={`nav-link  text-decoration-none fw-semibold  text-secondary fs-6 d-block my-auto ${location.pathname === "/products" ? "active" : ""
+                  }`}
+                to="/products"
+              >
+                <img src="assets/images/product.png" className="mx-3" />
+                Invitatory
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                className={`nav-link  text-decoration-none fw-semibold  text-secondary fs-6 d-block my-auto ${location.pathname === "/customer" ? "active" : ""
+                  }`}
+                to="/customer"
+              >
+                <img src="assets/images/customer.png" className="mx-3" />
+                Customer
+              </Link>
+            </li>
+            <li>
+              <Link
+                className={`nav-link  text-decoration-none fw-semibold  text-secondary fs-6 d-block my-auto ${location.pathname === "" ? "active" : ""
+                  }`}
+                to="/blog"
+              >
+                <img src="assets/images/inter.png" className="mx-3" />
+                Blog
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                className={`nav-link  text-decoration-none fw-semibold  text-secondary fs-6 d-block my-auto ${location.pathname === "/settings" ? "active" : ""
+                  }`}
+                to="/settings"
+              >
+                <img src="assets/images/setting.png" className="mx-3" />
+                Setting
+              </Link>
+            </li>
+            <li>
+              <a
+                className={`nav-link btn btn-sm my-3 text-light bg-main rounded-pill text-decoration-none fw-semibold btn-sm  fs-6 mb-3`}
+                onClick={logoutFunction}
+              >
+                Logout
+              </a>
+            </li>
+
+          </ul>
+        </section>
+      </div>
+
+
     </>
   );
 };
